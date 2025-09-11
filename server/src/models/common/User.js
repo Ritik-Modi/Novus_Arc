@@ -1,5 +1,5 @@
 import { model, Schema } from "mongoose";
-import { withBase } from "@/models/common/base.js";
+import { withBase } from "@/models/common/Base.js";
 
 const userSchema = withBase(
   new Schema({
